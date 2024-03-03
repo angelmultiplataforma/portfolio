@@ -32,7 +32,7 @@ const datos= {
     nombre: '',
     email: '',
     mensaje: '',
-    telefono:'',
+    telefono: '',
 }
 
 
@@ -45,6 +45,7 @@ const formulario=document.querySelector(".formulario")
 nombre.addEventListener('input',leerTexto)
 email.addEventListener('input',leerTexto)
 mensaje.addEventListener('input',leerTexto)
+telefono.addEventListener('input',leerTexto)
 
 
 
